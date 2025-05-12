@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="text-black bg-gray-100 mt-16 py-12 px-4">
+    <footer className="text-black bg-gray-100 py-12 px-4">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <h3 className="font-bold text-xl mb-4">NeKolayWeb</h3>
