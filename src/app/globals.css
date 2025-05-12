@@ -65,6 +65,11 @@ body {
   font-family: var(--font-sans);
 }
 
+/*
+  These styles apply to the hamburger menu icon provided by the 'hamburger-react' package.
+  If you need to customize the appearance or class of the hamburger icon and the menu stops working or behaves unexpectedly,
+  make sure to adjust the styles in this section accordingly to maintain proper functionality.
+*/
 .hamburger-react {
   color: black;
 }
