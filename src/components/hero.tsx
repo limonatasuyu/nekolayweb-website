@@ -4,7 +4,7 @@ import Image from "next/image";
 export const Hero = () => {
   return (
     <>
-      <div className="inline-block text-md px-4 py-2 rounded-sm mb-4 border border-gray-300">
+      <div className="text-black inline-block text-md px-4 py-2 rounded-sm mb-4 border border-gray-300">
         <strong>NeKolayWeb&apos;te</strong> alan adı masrafı yok! 💸
       </div>
       <h1 className="text-3xl font-semibold text-gray-900 mb-8 mt-4">

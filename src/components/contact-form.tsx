@@ -1,8 +1,9 @@
 import React from 'react';
+import Link from 'next/link';
 
 export const ContactForm = () => {
   return (
-    <div className="mt-10 bg-[#F9F9F9] rounded-xl p-6 max-w-xl mx-auto flex flex-col justify-center items-center py-24">
+    <div className="text-black mt-10 bg-[#F9F9F9] rounded-xl p-6 max-w-xl mx-auto flex flex-col justify-center items-center py-24">
       <h2 className="text-lg font-semibold text-gray-900 mb-1">Detaylı bilgi için sizi arayalım!</h2>
       <p className="text-sm text-gray-600 mb-4 flex items-center justify-center gap-2 border border-gray-300 w-fit p-2 rounded-md mt-4">
         <svg width="1rem" height="1rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,9 +23,9 @@ export const ContactForm = () => {
       <input type="email" placeholder="E-Posta" className="w-full px-3 py-2 mb-3 border border-gray-300 rounded" />
       <input type="tel" placeholder="+90" className="w-full px-3 py-2 mb-3 border border-gray-300 rounded" />
       <div className="text-left text-xs mb-4">
-        <label className="inline-flex items-start gap-2">
+        <label className="inline-flex items-center gap-2">
           <input type="checkbox" className="mt-1" />
-          <span>Kullanıcı sözleşmesini okudum, onaylıyorum.</span>
+          <span><Link href="#" className="text-gray-600">Kullanıcı sözleşmesini</Link> okudum, onaylıyorum.</span>
         </label>
       </div>
       <button type="button" className="w-fit px-4 py-3 bg-black text-[#00FF27] font-semibold rounded-md">

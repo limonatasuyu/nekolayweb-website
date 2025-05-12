@@ -5,7 +5,7 @@ import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { CTAButtons } from "@/components/cta-buttons";
 import { ContactForm } from "@/components/contact-form";
-import { Partners } from "@/components/partners";
+//import { Partners } from "@/components/partners";
 import { Advantages } from "@/components/advantages";
 import { Features } from "@/components/features";
 import { Steps } from "@/components/steps";
@@ -20,7 +20,7 @@ export default function Home() {
         <Header />
         <Hero />
         <CTAButtons />
-        <Partners />
+        {/*<Partners /> */}
         <ContactForm />
         <Advantages />
         <Features />

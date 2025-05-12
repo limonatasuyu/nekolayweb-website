@@ -2,6 +2,7 @@ export function Steps() {
   const steps = [
     {
       order: 1,
+      
       title: "Bize ulaşın",
       paragraph: "Sektörünüzü ve ne tür bir siteye<br/>ihtiyacınız olduğunu öğrenelim",
     },

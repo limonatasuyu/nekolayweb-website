@@ -52,7 +52,7 @@ export function FAQ() {
   return (
     <>
       <div>
-        <h2 className="text-3xl font-bold mt-8 mb-4">
+        <h2 className="text-black text-3xl font-bold mt-8 mb-4">
           Sıkça Sorulan
           <br />
           Sorular
