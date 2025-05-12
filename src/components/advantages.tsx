@@ -1,7 +1,7 @@
 export function Advantages() {
   return (
     <>
-      <h2 className="font-bold text-5xl mt-12">
+      <h2 className="text-black font-bold text-5xl mt-12">
         NeKolayWeb
         <br />
         Avantajları
